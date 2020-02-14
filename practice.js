@@ -15,6 +15,12 @@
 */
 
 //Code here
+let me = {
+  name: 'Karson',
+  age: 23
+}
+me.name;
+
 
 ////////// PROBLEM 2 //////////
 
@@ -24,11 +30,23 @@
 */
 
 //Code here
+const favoriteThings = {
+  band: 'All-Time Low',
+  food: 'Bicol Express',
+  person: 'Ariana Grande',
+  book: 'Percy Jackson',
+  movie: 'The Interview',
+  holiday: 'Christmas'
+}
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
+
+favoriteThings.car = 'Mustang'
+favoriteThings.brand = 'Apple'
 
 //Code here
 
@@ -39,6 +57,9 @@
 
 //Code here
 
+favoriteThings['food'] = 'Chicken Nuggets';
+favoriteThings['book'] = 'Harry Potter';
+
 ////////// PROBLEM 3 //////////
 
 /*
@@ -48,15 +69,24 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
+let backPack = {
+
+}
+
+let item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'black';
 
 //Code here
 
+// alert(backPack);
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
 
+console.log(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -78,6 +108,8 @@ var user2 = {
 };
 // Do not edit the code above.
 
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in'
 /*
   Let's say I, the user, decided to change my name and email address to the following:
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
@@ -94,7 +126,9 @@ var user2 = {
 /*
   Create an empty object called methodCollection.
 */
-
+var methodCollection = {
+  
+}
 //Code Here
 
 /*
